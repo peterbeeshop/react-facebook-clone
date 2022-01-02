@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #18191a;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+}
+section {
+  display: flex;
+  justify-content: space-between;
+}

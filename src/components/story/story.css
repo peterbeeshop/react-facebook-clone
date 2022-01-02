@@ -1,0 +1,33 @@
+.my__story {
+  width: 110px;
+  height: 180px;
+  background-color: burlywood;
+  border-radius: 10px;
+  margin: 10px;
+  background-image: url("../right/image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+}
+
+.logo__image {
+  position: absolute;
+  top: 3px;
+  left: 4px;
+}
+
+.logo__image img {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #3982e4;
+}
+
+.logo__image b {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  position: absolute;
+  top: 125px;
+  right: 5px;
+}

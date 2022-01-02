@@ -1,0 +1,29 @@
+.left__side {
+  /* background-color: brown; */
+  width: 25%;
+  margin: 10px;
+  height: fit-content;
+}
+.leftDiv {
+  display: flex;
+  align-items: center;
+  margin: 8px;
+  height: 45px;
+}
+.leftDiv span {
+  padding-left: 10px;
+  color: #d2d4d9;
+}
+.leftDiv:hover {
+  background-color: #2f3031;
+  height: 45px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.leftDiv img {
+  width: 30px;
+  height: 30px;
+}
+h4 {
+  margin: 6px;
+}

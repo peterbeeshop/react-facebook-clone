@@ -1,0 +1,81 @@
+.middle {
+  /* background-color: rgb(48, 54, 52); */
+  width: 60%;
+  margin: 10px;
+}
+
+.story {
+  display: flex;
+  flex-direction: row;
+}
+.onyour__mind {
+  margin: 0 auto;
+  width: 80%;
+  height: 120px;
+  background-color: #242526;
+  border-radius: 10px;
+}
+.onyour__mind div {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.onyour__mind div img {
+  width: 40px;
+  height: 40px;
+  margin-left: 15px;
+}
+.onyour__mind div input {
+  width: 80%;
+  text-align: start;
+  padding-left: 6px;
+  text-transform: capitalize;
+}
+
+.options {
+  display: flex;
+  justify-content: space-around;
+}
+.options section {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.room {
+  margin: 17px auto;
+  width: 80%;
+  height: 30%;
+  background-color: #242526;
+  border-radius: 10px;
+  display: flex;
+}
+
+.create__room {
+  margin: auto 10px;
+  width: 200px;
+  height: 180px;
+  /* background-color: rgba(94, 114, 4, 0.705); */
+  border-radius: 10px;
+  border: 1px solid rgb(83, 82, 82);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.createroom__icon {
+  border: 1px solid gray;
+  border-radius: 50%;
+  margin: 10px;
+}
+.create__room button {
+  margin: 10px auto;
+  width: 80%;
+  height: 30px;
+  border: 2px #3982e4 solid;
+  border-radius: 6px;
+  color: #408bee;
+  background-color: transparent;
+  cursor: pointer;
+}

@@ -1,0 +1,87 @@
+.right__side {
+  /* background-color: cadetblue; */
+  width: 30%;
+  margin: 10px;
+}
+
+.rightDiv {
+  height: 180px;
+  background-color: #242526;
+  padding: 10px;
+  border-radius: 5px;
+}
+.requestDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  margin: 10px;
+}
+.requestImage {
+  width: 20px;
+  height: 20px;
+}
+.request {
+  display: flex;
+  justify-content: space-between;
+}
+.requestName {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.my__image {
+  width: 50px;
+  height: 50px;
+}
+.btn__section {
+  display: flex;
+  flex-direction: column;
+}
+.btn__section button {
+  margin: 5px auto;
+  width: 50%;
+  height: 27px;
+  outline: none;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid transparent;
+}
+.confirm {
+  background-color: #3982e4;
+}
+.delete {
+  background-color: #464747;
+}
+.sponsored {
+  display: flex;
+  align-items: center;
+}
+.sponsored__text {
+  display: flex;
+  flex-direction: column;
+  margin: 3px;
+}
+.sponsored__text i {
+  margin-top: 9px;
+  color: grey;
+}
+.nft__image {
+  width: 120px;
+  border-radius: 5px;
+  height: 100px;
+  margin: 7px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact__icons {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+}
